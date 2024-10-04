@@ -76,12 +76,18 @@ resources:
 
 livenessProbe:
   httpGet:
-    path: /
+    path: /actuator/health
     port: http
 readinessProbe:
   httpGet:
-    path: /
+    path: /actuator/health
     port: http
+startupProbe:
+  httpGet:
+    path: /actuator/health
+    port: http
+  failureThreshold: 30
+  periodSeconds: 10
 
 autoscaling:
   enabled: false
