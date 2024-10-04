@@ -12,7 +12,7 @@ image:
   tag: "1.0"
 
 imagePullSecrets:
-- registry-pull-secret
+- name: registry-pull-secret
 
 nameOverride: ""
 fullnameOverride: "tutoobs"
