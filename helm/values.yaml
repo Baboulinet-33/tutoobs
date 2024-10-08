@@ -4,6 +4,16 @@
 
 replicaCount: 1
 
+## Obs
+global:
+  tenantId: mef-tutoobs
+
+app:
+  name: tutoobs
+
+###########
+
+
 image:
   registry: harbor.apps.dso.numerique-interieur.com
   repository: mef-tutoobs/app

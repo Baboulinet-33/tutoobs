@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 1,
+  "id": null,
   "links": [],
   "panels": [
     {
@@ -39,7 +39,7 @@
         "y": 0
       },
       "hiddenSeries": false,
-      "id": 2,
+      "id": null,
       "legend": {
         "avg": false,
         "current": false,
@@ -134,7 +134,7 @@
         "y": 0
       },
       "hiddenSeries": false,
-      "id": 4,
+      "id": null,
       "legend": {
         "avg": false,
         "current": false,
@@ -236,7 +236,7 @@
         "x": 0,
         "y": 8
       },
-      "id": 6,
+      "id": null,
       "options": {
         "orientation": "auto",
         "reduceOptions": {
@@ -284,7 +284,7 @@
         "y": 8
       },
       "hiddenSeries": false,
-      "id": 8,
+      "id": null,
       "legend": {
         "avg": false,
         "current": false,
