@@ -1,3 +1,4 @@
 .vscode
 helm/charts/*
+observability/charts/*
 tmp/

@@ -1,0 +1,8 @@
+## Obs
+# global:
+#   tenantId: mef-tutoobs
+
+app:
+  name: tuto-obs
+
+###########

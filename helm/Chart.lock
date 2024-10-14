@@ -1,6 +1,0 @@
-dependencies:
-- name: obs
-  repository: https://ronan-wescale.github.io/grafana-dynamic/
-  version: 0.1.5
-digest: sha256:70265037f6c9e750c164344c9c138acb357ccda48753f49012220dc351eca62b
-generated: "2024-10-04T14:29:51.083915408+02:00"

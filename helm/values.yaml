@@ -4,19 +4,9 @@
 
 replicaCount: 1
 
-## Obs
-global:
-  tenantId: mef-tutoobs
-
-app:
-  name: tutoobs
-
-###########
-
-
 image:
-  registry: harbor.apps.dso.numerique-interieur.com
-  repository: mef-tutoobs/app
+  registry: harbor.apps.dso.hp.numerique-interieur.com
+  repository: mi-tutoobs/app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0"
